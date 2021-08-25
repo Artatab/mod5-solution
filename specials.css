@@ -1,0 +1,37 @@
+
+
+ #body {
+   background-color: dimgray;
+
+position: static;
+ box-sizing: border-box;}
+
+
+.row { background-color: dimgray;}
+
+h1 {
+color: Black;
+text-align: center;
+ background-color: dimgray;}
+
+#picture { float: left;
+width: 50%}
+
+#lunch { margin-bottom: 20px;}
+
+
+@media (min-width: 992px){#l1, #l2, #l3
+    {float: right;}
+    #l1 {width: 30%; margin-left: auto; margin-right: auto;}
+    #l2 {width: 30%; margin-left: auto; margin-right: auto; }
+    #l3 {width: 30%; margin-left: auto; margin-right: auto; }
+}
+
+
+#attention {
+font-size: 2em;
+}
+
+#il1, #il2, #il3{ display: none;
+  width: 50%;
+}
